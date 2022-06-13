@@ -11,7 +11,7 @@ Zombie::~Zombie()
 
 void Zombie::init(float speed, glm::vec2 position) {
 	_speed = speed;
-	_color.set(255, 255, 0, 255);
+	_color.set(0, 185, 0, 255);
 	_position = position;
 }
 
